@@ -1,0 +1,9 @@
+[build]
+  command = "npm install && npm run build"
+  publish = "out"
+
+[[redirects]]
+  from = "https://www.dairy-hills.com/*"
+  to = "https://dairy-hills.com/:splat"
+  status = 301
+  force = true
