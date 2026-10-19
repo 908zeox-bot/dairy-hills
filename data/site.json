@@ -1,0 +1,14 @@
+{
+  "name": "Dairy Hills",
+  "tagline": "Co-Working Space",
+  "contact_email": "manager@dairy-hills.com",
+  "canonical": "https://www.dairy-hills.com",
+  "description": "A boutique shared professional workspace in a historic brick building in Denver’s Washington Park West neighborhood.",
+  "address": {"street": "323 S Pearl St", "city": "Denver", "region": "CO", "postal": "80209"},
+  "photos": {
+    "hero": {"src": "assets/img/exterior.webp", "alt": "Historic brick Dairy Hills building with arched windows and a front stairway"},
+    "interior": {"src": "assets/img/interior.webp", "alt": "Sunlight falling through arched windows in a private office"},
+    "lobby": {"src": "assets/img/lobby.webp", "alt": "Shared lobby with lounge chairs beside a sunlit window"},
+    "courtyard": {"src": "assets/img/courtyard.webp", "alt": "Outdoor table and chairs on a flagstone courtyard"}
+  }
+}
