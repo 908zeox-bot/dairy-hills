@@ -26,3 +26,5 @@ Current suite availability, areas, amenities, access arrangements, parking provi
 The initial rebuild replaces the previous application scaffold in the same PR. Domain rules are host-specific repository configuration only. Existing hosting administration and email/security settings must be preserved by the separate release workflow. Review the preview before any production publication.
 
 Deployment, rollback and ongoing maintenance: [operating guide](docs/maintenance.md).
+
+PR checks, Dave's approval requirement, Netlify previews, and automatic releases: [release automation](docs/release-automation.md).
