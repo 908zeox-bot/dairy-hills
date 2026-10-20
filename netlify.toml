@@ -1,9 +1,66 @@
 [build]
-  command = "npm install && npm run build"
-  publish = "out"
+  command = "node build.mjs"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
 
 [[redirects]]
-  from = "https://www.dairy-hills.com/*"
-  to = "https://dairy-hills.com/:splat"
+  from = "https://dairy-hills.com/*"
+  to = "https://www.dairy-hills.com/:splat"
   status = 301
   force = true
+
+[[redirects]]
+  from = "https://dairyhills.ai/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.dairyhills.ai/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dairyhills.net/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.dairyhills.net/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dairyhills.org/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.dairyhills.org/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://dairyhills.space/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.dairyhills.space/*"
+  to = "https://www.dairy-hills.com/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

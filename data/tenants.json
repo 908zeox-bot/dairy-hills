@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Cafecito Connections Therapy",
+    "suite": null,
+    "url": null,
+    "consent": true,
+    "consent_date": "2026-10-19",
+    "show": true
+  },
+  {
+    "name": "Gold Rush Esthetics",
+    "suite": null,
+    "url": "https://www.goldrushesthetics.com/",
+    "consent": true,
+    "consent_date": "2026-10-19",
+    "show": true
+  },
+  {
+    "name": "Healing Towards Wholeness",
+    "suite": null,
+    "url": "https://www.healingtowardswholeness.com/",
+    "consent": true,
+    "consent_date": "2026-10-19",
+    "show": true
+  },
+  {
+    "name": "Life in Transition Counseling",
+    "suite": null,
+    "url": "https://www.life-in-transition.com/",
+    "consent": true,
+    "consent_date": "2026-10-19",
+    "show": true
+  }
+]
