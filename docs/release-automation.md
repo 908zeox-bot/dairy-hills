@@ -17,7 +17,7 @@ GitHub cannot distinguish Dave from an agent using Dave's credentials. Agents sh
 
 ## Integration setup and verification
 
-The Netlify GitHub App must have access to this repository and be selected in the project's repository connection. Enable Deploy Previews for PRs to `main`; keep unrelated branch deploys disabled. Keep auto publishing enabled for future approved main merges after setup verification.
+The Netlify GitHub App is selected in this project's repository connection (installation `120755815`). Deploy Previews are enabled for PRs to `main`; unrelated branch deploys are disabled. Auto publishing should remain enabled for future approved main merges after setup verification.
 
 The initial setup must leave production deploy `6ad6c2311567f42f35745f61` unchanged. Use only a PR preview to verify the repaired Git connection. Do not merge this setup PR or publish a replacement as part of verification. Branch protection is configured separately from this file; documentation alone does not enforce these requirements. CODEOWNERS becomes effective once present on the PR's base branch.
 
